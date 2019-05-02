@@ -1,0 +1,8 @@
+---
+- hosts: all
+  serial: l
+  tasks:
+    - name: ping machines
+      ping:
+      ignore_errors: yes
+  

@@ -1,0 +1,6 @@
+---
+- hosts: webapp  
+  serial:
+  roles:
+    -httpd
+  
